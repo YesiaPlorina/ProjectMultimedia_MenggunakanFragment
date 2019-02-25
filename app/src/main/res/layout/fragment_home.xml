@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_fragmen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_tombol"
+        android:text="Button" />
+
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:met_floatingLabel="normal"
+    android:hint="contoh text"
+    app:met_floatingLabelText="Contoh Text"
+    />
+
+
+</LinearLayout>
